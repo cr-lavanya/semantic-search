@@ -4,7 +4,7 @@
 
 This project demonstrates a simple **ETL (Extract, Transform, Load)** pipeline and **semantic search** on Amazon product data using Python. The aim is to show how raw product data can be cleaned, processed, converted into vector embeddings, and searched using natural language queries.
 
-The entire implementation is done in a single Jupyter Notebook for ease of understanding and evaluation, making it suitable for **college-level coursework or mini projects**.
+The entire implementation is done in a single Google Colab Notebook for ease of understanding and evaluation, making it suitable for **college-level coursework or mini projects**.
 
 ---
 
@@ -28,7 +28,7 @@ Only the relevant columns are selected to keep the project focused and lightweig
 * **Pandas** – data loading and preprocessing
 * **SentenceTransformers** – text embedding generation
 * **FAISS** – vector similarity search
-* **Jupyter Notebook** – development and execution
+* **Google Colab** – development and execution
 
 ---
 
@@ -106,30 +106,3 @@ The semantic search results will be displayed directly in the notebook output.
 The system retrieves products with similar meaning even if exact keywords do not match.
 
 ---
-
-## Learning Outcomes
-
-* Understanding ETL pipeline basics
-* Hands-on experience with text embeddings
-* Introduction to vector databases using FAISS
-* Practical use of semantic search in real-world data
-
----
-
-## Limitations
-
-* Works on a single CSV file
-* In-memory vector storage (not persistent)
-* No web interface (not required for academic scope)
-
----
-
-## Conclusion
-
-This project shows how semantic search can be built using simple tools and real product data. It focuses on clarity and practical learning rather than complex architecture, making it ideal for academic evaluation.
-
----
-
-## Author
-
-Lavanya C R
